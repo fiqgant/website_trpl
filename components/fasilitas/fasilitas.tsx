@@ -58,9 +58,9 @@ export const Fasilitas = () => {
       >
         Fasilitas Prodi Teknologi Rekayasa Perangkat Lunak
       </Heading>
-    <Grid.Container gap={2} justify="flex-start">
+    <Grid.Container gap={1} justify="flex-start">
       {list.map((item, index) => (
-        <Grid xs={6} sm={3} key={index}>
+        <Grid xs={16} sm={3} key={index}>
           <Card isPressable>
             <Card.Body css={{ p: 0 }}>
               <Card.Image
